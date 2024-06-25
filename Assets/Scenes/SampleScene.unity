@@ -549,6 +549,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250788084}
   m_CullTransparentMesh: 0
+--- !u!1 &1300134634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1300134636}
+  - component: {fileID: 1300134635}
+  m_Layer: 0
+  m_Name: Precios
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1300134635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300134634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7045bfec287048489804ab352b399c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precios:
+  - {fileID: 100000, guid: 415b565dc42986f4f929edf5bc6129b0, type: 3}
+  - {fileID: 100000, guid: 58f9777c8414b9848863d1b100871ef2, type: 3}
+  - {fileID: 100000, guid: f93d067631c61dc4e9ad664b5caee55f, type: 3}
+  - {fileID: 100002, guid: 06cb52d95afe5c548a900bf0fbd961fe, type: 3}
+  - {fileID: 100000, guid: 461fd063e6c258144a920272667064c1, type: 3}
+  - {fileID: 100000, guid: ee5a68c1f72ebb842b701bf317ad5fdf, type: 3}
+  - {fileID: 100000, guid: 326c391e34dcca64382d2e20f455b407, type: 3}
+  - {fileID: 100000, guid: 972dc3ef0abf0864086c8c4c068bf315, type: 3}
+  - {fileID: 100008, guid: 7930f30179b74d747893852ac62b0595, type: 3}
+  - {fileID: 100000, guid: 3078fcef1cfcb07449eb25d7b9fd3ef1, type: 3}
+  - {fileID: 100008, guid: 99f31104d6eeba347861d36069b7b9a9, type: 3}
+  - {fileID: 100000, guid: bc5521524ead67848a8f3fb6b38dda3e, type: 3}
+  - {fileID: 100000, guid: 3c8328db5ab319d4d807820cc669f140, type: 3}
+  - {fileID: 100000, guid: 160abc969c65d5944857f1fa78c8d719, type: 3}
+--- !u!4 &1300134636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300134634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 485.23987, y: 301.75015, z: 9.643663}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1671337871
 GameObject:
   m_ObjectHideFlags: 0
